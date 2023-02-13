@@ -10,4 +10,42 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /* #endregion common */
+
+
+/* #region debug */
+.menu_nav{
+background-color: palegreen;
+}
+
+.m_left {
+    border: 1px solid black;
+}
+.m_right {
+    border: 1px solid black;
+}
+
+/* #endregion debug */
+
+
+/* #region header */
+
+.menu_nav{
+    justify-content: space-between;
+    padding: 0  2rem;
+}
+nav li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 1px;
+}
+
+
+
+
+/* #endregion header */
+
