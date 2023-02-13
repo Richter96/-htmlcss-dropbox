@@ -23,6 +23,27 @@ body {
     margin: auto;
 }
 
+.row {
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.box_right {
+    width: 60%;
+}
+
+.box_left {
+    width: 40%;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
 /* #endregion common */
 
 
@@ -45,19 +66,19 @@ body {
 
 .debug .jambo_title {
     background-color: blue;
-    height: 150px;
+    height: 20%;
 }
 
 .debug .jambo_text {
     background-color: rgba(0, 0, 255, 0.527);
-    height: 300px;
+    height: 80%;
 }
 
-.debug .jambo_left {
+.debug .box_left {
     background-color: blueviolet;
 }
 
-.debug .jambo_right {
+.debug .box_right {
     background-color: beige;
 
 }
@@ -73,7 +94,6 @@ body {
 
 .debug .business_plans .container:last-child {
     background-color: palegreen;
-    height: 600px;
 }
 
 .debug .col-4 {
@@ -81,10 +101,36 @@ body {
     border: 1px solid black;
 }
 
-.debug .col-4:first-child {
+.debug .business_plans .col-4:first-child {
     height: 600px;
 }
 
+.debug .col-12 {
+    background-color: lightcyan;
+    height: 150px;
+    border: 1px solid black;
+
+}
+
+.debug .partner_text {
+    background-color: lightcyan;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.debug .partner_img {
+    background-color: lightcyan;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.debug .partner {
+    height: 400px;
+}
+
+.debug .business_dropbox .col-4 {
+    height: 500px;
+}
 
 /* #endregion debug */
 
@@ -124,18 +170,11 @@ nav li {
 .jambotron {
     flex-direction: column;
     height: calc(100vh - 50px);
+    margin-bottom: 3rem;
 }
 
 .jambo_text {
     flex-direction: row;
-}
-
-.jambo_right {
-    width: 60%;
-}
-
-.jambo_left {
-    width: 40%;
 }
 
 /* endjambotron */
@@ -144,9 +183,8 @@ nav li {
     justify-content: space-between;
 }
 
-.col-4 {
-    width: calc(100% / 12 * 4);
-}
+
+/* endbusiness_plan*/
 
 
 
