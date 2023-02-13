@@ -1,6 +1,5 @@
-
 /* #region common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,38 +13,106 @@ body {
     display: flex;
 }
 
+.container {
+    width: 60%;
+    margin: auto;
+}
+
 /* #endregion common */
 
 
 /* #region debug */
-.menu_nav{
-background-color: palegreen;
+.debug .menu_nav {
+    background-color: palegreen;
 }
 
-.m_left {
+.debug .jambotron.container {
+    background-color: palevioletred;
+}
+
+.debug .m_left {
     border: 1px solid black;
 }
-.m_right {
+
+.debug .m_right {
     border: 1px solid black;
 }
+
+.debug .jambo_title {
+    background-color: blue;
+    height: 150px;
+}
+
+.debug .jambo_text {
+    background-color: rgba(0, 0, 255, 0.527);
+    height: 300px;
+}
+
+.debug .jambo_left {
+    background-color: blueviolet;
+}
+
+.debug .jambo_right {
+    background-color: beige;
+
+}
+
 
 /* #endregion debug */
 
 
 /* #region header */
-
-.menu_nav{
-    justify-content: space-between;
-    padding: 0  2rem;
+#app_header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
+
+.menu_nav {
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
 nav li {
     display: inline-block;
     line-height: 50px;
     padding: 0 1px;
 }
 
-
-
+.jambo_img {
+    background-color: peru;
+    width: 100%;
+    height: 100%;
+}
 
 /* #endregion header */
 
+/* #region main  */
+#app_main {
+    margin-top: 50px;
+}
+
+
+
+.jambotron {
+    flex-direction: column;
+    height: calc(100vh - 50px);
+}
+
+.jambo_text {
+    flex-direction: row;
+}
+
+.jambo_right {
+    width: 60%;
+}
+
+.jambo_left {
+    width: 40%;
+}
+
+
+
+
+/* #endregion main  */
