@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --db-lightblu:#b4d0e7;
 
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -147,9 +150,7 @@ body {
     background-color: plum;
 }
 
-.debug .brend {
-    background-color: blue;
-}
+
 /* #endregion debug */
 
 
@@ -205,9 +206,21 @@ nav li {
     margin: 0;
 }
 
-/* endbusiness_plan*/
+/* end business_plan*/
 
 
+/* end business_plan */
+
+
+/* end partner_dropbox */
+
+
+/* end business_dropbox */
+.brend {
+    background-color: var(--db-lightblu) ;
+}
+
+/* end brand */
 
 
 /* #endregion main  */
