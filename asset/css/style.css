@@ -143,6 +143,13 @@ body {
     height: 500px;
 }
 
+.debug .free_trial {
+    background-color: plum;
+}
+
+.debug .brend {
+    background-color: blue;
+}
 /* #endregion debug */
 
 
@@ -194,13 +201,13 @@ nav li {
 .business_plans .row {
     justify-content: space-between;
 }
-
+.brend .row {
+    margin: 0;
+}
 
 /* endbusiness_plan*/
 
-.brend .col-4 {
-    height: 200px;
-}
+
 
 
 /* #endregion main  */
