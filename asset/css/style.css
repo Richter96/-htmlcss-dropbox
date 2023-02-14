@@ -1,4 +1,3 @@
-
 /* #region debug */
 .debug .menu_nav {
     background-color: palegreen;
@@ -119,9 +118,14 @@
     --db-balck: #000003;
     --db-white: #ffffff;
     --db-grey-txt: #8e8e8e;
-    --db-blue:#0061ff;
-    --db-green-b:#a2d39b;
-    --db-
+    --db-blue: #0061ff;
+    --db-green-b: #a2d39b;
+    --db-bluet-b: #0093ce;
+    --db-brown-b: #61082b;
+    --db-red-b: #d5001f;
+    --db-blu-b: #0d2481;
+    --db-yellow: #ffd830;
+    --db-lightblu: #b4d0e7;
 }
 
 body {
@@ -163,6 +167,7 @@ a {
 .w_70 {
     width: 70%;
 }
+
 .w_30 {
     width: 30%;
 }
@@ -177,6 +182,7 @@ a {
 
 .col-6 {
     width: calc(100% / 12 * 6);
+    aspect-ratio: 1/1 ;
 }
 
 .col-12 {
@@ -189,6 +195,7 @@ a {
     border: none;
     color: var(--db-white);
 }
+
 .button_blu:active {
     background-color: rgba(120, 168, 246, 0.52);
 }
@@ -207,6 +214,7 @@ img {
 .button_white:active {
     background-color: rgba(113, 113, 113, 0.258);
 }
+
 .bp-2 {
     padding-bottom: 2rem;
 }
@@ -231,6 +239,7 @@ h2 {
 .m_right .button_blu {
     padding: 0.3rem 1rem;
 }
+
 .menu_nav {
     justify-content: space-between;
     padding: 1rem 2rem;
@@ -253,6 +262,7 @@ nav li {
     color: black;
     padding: 0.5rem 1rem;
 }
+
 .menu_nav a:hover {
     border-bottom: 1px solid #000003;
 }
@@ -275,12 +285,12 @@ nav li {
     margin-bottom: 3rem;
 }
 
-.jambotron  {
+.jambotron {
     background-color: var(--db-lightblu);
     margin-bottom: 6rem;
 }
 
-.jambotron h1{
+.jambotron h1 {
     font-size: 4rem;
     padding: 5rem 0rem;
 }
@@ -320,15 +330,14 @@ nav li {
 .business_plans .row {
     justify-content: space-between;
 }
+
 .title_plan {
-margin-bottom: 3rem;
+    margin-bottom: 3rem;
 
 }
+
 .title_plan h2 {
     padding: 2rem 0;
-}
-.brend .row {
-    margin: 0;
 }
 
 .type_plan {
@@ -349,6 +358,7 @@ margin-bottom: 3rem;
 .col-4 ul {
     margin-bottom: 2rem;
 }
+
 .col-4 li {
     padding-bottom: 1.5rem;
 }
@@ -364,14 +374,16 @@ ul.info_top li:last-child {
 .card_plan span {
     display: block;
 }
+
 .card_plan a {
     text-decoration: underline;
 }
 
 .card_plan .button_blu {
     margin: 2rem 0;
-    width: 100% ;
+    width: 100%;
 }
+
 .split {
     width: 20%;
     border-bottom: 1px solid gray;
@@ -385,6 +397,7 @@ ul.info_top li:last-child {
 .col-12 {
     margin: 2rem 0;
 }
+
 .text_left h3 {
     padding-bottom: 1.5rem;
 }
@@ -412,7 +425,7 @@ ul.info_top li:last-child {
     padding: 2rem 0;
 }
 
-.business_dropbox h3{
+.business_dropbox h3 {
     font-size: 1.5rem;
 }
 
@@ -420,8 +433,50 @@ ul.info_top li:last-child {
     text-decoration: underline;
     color: #0061ff;
 }
+.brend .col-4 {
+height: 100%;
+}
+.brend .col-6 {
+    fill: var(--db-white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.brend img {
+    max-width: 50%;
+}
 
+.green {
+    background-color: var(--db-green-b);
+}
 
+.brown {
+    background-color: var(--db-brown-b);
+}
+
+.bluet {
+    background-color: var(--db-bluet-b);
+}
+.light_blu {
+    background-color: var(--db-lightblu);
+}
+.blu {
+    background-color: var(--db-blu-b);
+}
+.yellow {
+    background-color: var(--db-yellow);
+}
+.red {
+    background-color: var(--db-red-b);
+}
+.col-4.designit {
+    padding: 2rem;
+}
+
+.designit p {
+    padding-bottom: 3rem;
+}
 /* end partner_dropbox */
 
 
