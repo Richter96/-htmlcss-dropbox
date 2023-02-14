@@ -7,10 +7,13 @@
 
 :root {
     --db-lightblu: #b4d0e7;
-    --db-balck:#000000;
-    --db-white:#ffffff;
+    --db-balck: #000003;
+    --db-white: #ffffff;
     --db-grey-txt: #8e8e8e;
-    
+    --db-blue:#0061ff;
+    --db-green-b:#a2d39b;
+    --db-
+
 }
 
 body {
@@ -20,6 +23,7 @@ body {
 ul {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -39,14 +43,15 @@ a {
 }
 
 .row {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.box_right {
+.w_60 {
     width: 60%;
 }
 
-.box_left {
+.w_40 {
     width: 40%;
 }
 
@@ -92,11 +97,11 @@ a {
     height: 80%;
 }
 
-.debug .box_left {
+.debug .w_40 {
     background-color: blueviolet;
 }
 
-.debug .box_right {
+.debug .w_60 {
     background-color: beige;
 
 }
@@ -262,9 +267,11 @@ nav li {
     width: calc(100% / 25 * 5);
     line-height: 2;
 }
+
 #app_footer h3 {
     color: var(--db-white);
 }
+
 #app_footer a {
     font-size: 0.8rem;
     color: var(--db-grey-txt);
