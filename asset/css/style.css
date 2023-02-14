@@ -122,7 +122,6 @@
     --db-blue:#0061ff;
     --db-green-b:#a2d39b;
     --db-
-
 }
 
 body {
@@ -246,6 +245,7 @@ nav li {
 
 .jambotron  {
     background-color: var(--db-lightblu);
+    margin-bottom: 6rem;
 }
 
 .jambotron h1{
@@ -275,16 +275,6 @@ nav li {
     margin-top: 3rem;
 }
 
-/* endjambotron */
-
-.business_plans .row {
-    justify-content: space-between;
-}
-
-.brend .row {
-    margin: 0;
-}
-
 .brend,
 .business_dropbox,
 .partner_Dropbox,
@@ -293,8 +283,76 @@ nav li {
     margin-bottom: 2rem;
 }
 
+/* endjambotron */
 /* end business_plan*/
 
+.business_plans .row {
+    justify-content: space-between;
+}
+
+.title_plan h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.brend .row {
+    margin: 0;
+}
+
+.type_plan {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.info_plan {
+    padding: 2rem;
+}
+
+.card_plan {
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.plans .col-4 { 
+    flex-direction: column;
+}
+
+.col-4 ul {
+    margin-bottom: 2rem;
+}
+.col-4 li {
+    padding-bottom: 1.5rem;
+}
+
+li.price {
+    padding-bottom: 0.5rem;
+}
+
+ul.info_top li:last-child {
+    color: var(--db-grey-txt);
+}
+
+.card_plan span {
+    display: block;
+}
+.card_plan a {
+    text-decoration: underline;
+}
+
+.card_plan .button_blu {
+    margin: 2rem 0;
+    width: 100% ;
+    padding: 1rem;
+}
+.split {
+    width: 20%;
+    border-bottom: 1px solid gray;
+    margin: 3rem 0;
+}
+
+.card_plan h4 {
+    
+}
 
 /* end business_plan */
 
