@@ -160,6 +160,13 @@ a {
     width: 60%;
 }
 
+.w_70 {
+    width: 70%;
+}
+.w_30 {
+    width: 30%;
+}
+
 .w_40 {
     width: 40%;
 }
@@ -284,15 +291,18 @@ nav li {
 }
 
 /* endjambotron */
-/* end business_plan*/
 
 .business_plans .row {
     justify-content: space-between;
 }
+.title_plan {
+margin-bottom: 3rem;
 
+}
 .title_plan h2 {
     padding: 2rem 0;
     font-size: 2rem;
+
 }
 .brend .row {
     margin: 0;
@@ -311,10 +321,7 @@ nav li {
 .card_plan {
     border: 1px solid black;
     margin: 1rem;
-}
-
-.plans .col-4 { 
-    flex-direction: column;
+    height: 100%;
 }
 
 .col-4 ul {
@@ -351,10 +358,22 @@ ul.info_top li:last-child {
 }
 
 .card_plan h4 {
-    
+    margin-bottom: 2rem;
+}
+
+.col-12 {
+    margin: 2rem 0;
+}
+.text_left h3 {
+    padding-bottom: 1.5rem;
+}
+
+.text_left h5 {
+    padding-bottom: 2.5rem;
 }
 
 /* end business_plan */
+
 
 
 /* end partner_dropbox */
