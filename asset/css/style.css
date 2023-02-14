@@ -1,75 +1,3 @@
-/* #region common */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --db-lightblu: #b4d0e7;
-    --db-balck: #000003;
-    --db-white: #ffffff;
-    --db-grey-txt: #8e8e8e;
-    --db-blue:#0061ff;
-    --db-green-b:#a2d39b;
-    --db-
-
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.container {
-    width: 60%;
-    margin: auto;
-}
-
-.container_big {
-    width: 70%;
-    margin: auto;
-    max-width: 1152px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.w_60 {
-    width: 60%;
-}
-
-.w_40 {
-    width: 40%;
-}
-
-.col-4 {
-    width: calc(100% / 12 * 4);
-}
-
-.col-6 {
-    width: calc(100% / 12 * 6);
-}
-
-.col-12 {
-    width: calc(100% / 12 * 12);
-}
-
-/* #endregion common */
-
 
 /* #region debug */
 .debug .menu_nav {
@@ -178,6 +106,91 @@ a {
 /* #endregion debug */
 
 
+
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --db-lightblu: #b4d0e7;
+    --db-balck: #000003;
+    --db-white: #ffffff;
+    --db-grey-txt: #8e8e8e;
+    --db-blue:#0061ff;
+    --db-green-b:#a2d39b;
+    --db-
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.container_big {
+    width: 70%;
+    margin: auto;
+    max-width: 1152px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+.w_40 {
+    width: 40%;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
+.button_blu {
+    background: var(--db-blue);
+    padding: 0.3rem 1rem;
+    border: none;
+    color: var(--db-white);
+}
+.button_blu:active {
+    background-color: rgba(120, 168, 246, 0.52);
+}
+
+/* #endregion common */
+
+
+
 /* #region header */
 #app_header {
     position: fixed;
@@ -199,11 +212,11 @@ nav li {
     padding: 0 1px;
 }
 
-.jambo_img {
+/* .jambo_img {
     background-color: peru;
     width: 100%;
     height: 100%;
-}
+} */
 
 .menu_nav a {
     color: black;
@@ -217,17 +230,6 @@ nav li {
     margin-bottom: -0.3rem;
 }
 
-.menu_nav button {
-    background: var(--db-blue);
-    padding: 0.3rem 1rem;
-    border: none;
-    color: var(--db-white);
-}
-
-.menu_nav button:active {
-    background-color: rgba(120, 168, 246, 0.52);
-}
-
 
 /* #endregion header */
 
@@ -239,17 +241,38 @@ nav li {
 
 .jambotron .container_big {
     flex-direction: column;
-    height: calc(100vh - 80px);
     margin-bottom: 3rem;
+}
+
+.jambotron  {
+    background-color: var(--db-lightblu);
 }
 
 .jambotron h1{
     font-size: 4rem;
-    
+    padding: 5rem 0rem;
 }
 
 .jambo_text {
     flex-direction: row;
+}
+
+.jambo img {
+    max-width: 100%;
+    margin-bottom: -10%;
+}
+
+.jambo p {
+    line-height: 1.5;
+    padding-right: 3rem;
+}
+
+.jambo .button_blu {
+    margin: 2rem 0;
+}
+
+.jambo i {
+    margin-top: 3rem;
 }
 
 /* endjambotron */
