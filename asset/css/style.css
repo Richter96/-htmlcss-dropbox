@@ -40,6 +40,7 @@ a {
 .container_big {
     width: 70%;
     margin: auto;
+    max-width: 1152px;
 }
 
 .row {
@@ -233,13 +234,18 @@ nav li {
 /* #region main  */
 
 #app_main {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-.jambotron {
+.jambotron .container_big {
     flex-direction: column;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 80px);
     margin-bottom: 3rem;
+}
+
+.jambotron h1{
+    font-size: 4rem;
+    
 }
 
 .jambo_text {
