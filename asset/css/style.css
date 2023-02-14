@@ -187,7 +187,7 @@ a {
 
 .button_blu {
     background: var(--db-blue);
-    padding: 0.3rem 1rem;
+    padding: 1rem;
     border: none;
     color: var(--db-white);
 }
@@ -197,6 +197,20 @@ a {
 
 img {
     max-width: 100%;
+}
+
+.button_white {
+    background-color: var(--db-white);
+    padding: 1rem;
+    color: var(--db-balck);
+    border: 1px solid black;
+}
+
+.button_white:active {
+    background-color: rgba(113, 113, 113, 0.258);
+}
+.bp-2 {
+    padding-bottom: 2rem;
 }
 
 /* #endregion common */
@@ -212,6 +226,9 @@ img {
     background-color: var(--db-white);
 }
 
+.m_right .button_blu {
+    padding: 0.3rem 1rem;
+}
 .menu_nav {
     justify-content: space-between;
     padding: 1rem 2rem;
@@ -308,7 +325,6 @@ margin-bottom: 3rem;
 .title_plan h2 {
     padding: 2rem 0;
     font-size: 2rem;
-
 }
 .brend .row {
     margin: 0;
@@ -354,7 +370,6 @@ ul.info_top li:last-child {
 .card_plan .button_blu {
     margin: 2rem 0;
     width: 100% ;
-    padding: 1rem;
 }
 .split {
     width: 20%;
@@ -377,17 +392,26 @@ ul.info_top li:last-child {
     padding-bottom: 2.5rem;
 }
 
+/* endbusiness_plan */
+
+
+.partner:last-child {
+    padding: 3rem;
+}
+
+
 /* end business_plan */
 
+.business_dropbox h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
 
 
 /* end partner_dropbox */
 
 
 /* end business_dropbox */
-.brend {
-    background-color: var(--db-lightblu);
-}
 
 /* end brand */
 
