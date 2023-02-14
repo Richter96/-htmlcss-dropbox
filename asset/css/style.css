@@ -416,6 +416,11 @@ ul.info_top li:last-child {
     font-size: 1.5rem;
 }
 
+.business_dropbox a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
 
 /* end partner_dropbox */
 
