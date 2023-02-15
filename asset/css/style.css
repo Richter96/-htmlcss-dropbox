@@ -131,6 +131,7 @@ html
     --db-yellow: #ffd830;
     --db-lightblu: #b4d0e7;
     --db-greenborder: #d1e9cd;
+    --db-greyborder:#c5c5c5;
 }
 
 body {
@@ -204,6 +205,8 @@ img {
     padding: 1rem;
     border: none;
     color: var(--db-white);
+    font-size: 1rem;
+
 }
 
 .button_blu:active {
@@ -221,12 +224,24 @@ img {
     background-color: rgba(113, 113, 113, 0.258);
 }
 
-.bp-2 {
+.pb-2 {
     padding-bottom: 2rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
 }
 
 h2 {
     font-size: 2.5rem;
+}
+
+.txt_grey {
+    color: var(--db-grey-txt);
+}
+
+.t_blu {
+    color: var(--db-blue);
 }
 
 /* #endregion common */
@@ -320,18 +335,11 @@ nav li {
     margin: 2rem 0;
 }
 
-.jambo i {
-    margin-top: 3rem;
-}
-
-.jambo i:active {
-    transition: 3s;
-}
-
 .brend,
 .business_dropbox,
 .partner_Dropbox,
 #business_plans,
+
 .faq {
     margin-bottom: 2rem;
     padding-top: 80px;
@@ -356,54 +364,60 @@ nav li {
     padding: 2rem 0;
 }
 
-.type_plan {
+.card_header {
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--db-greyborder);
     padding: 1rem;
 }
 
-.info_plan {
+.card_body {
     padding: 2rem;
+    flex-direction: column;
 }
 
+
 .card_plan {
-    border: 1px solid black;
+    border: 1px solid var(--db-greyborder);
     height: 100%;
 }
 
-.col-4 ul {
-    margin-bottom: 2rem;
+.price {
+    padding-bottom: 4rem;
+    line-height: 1.5;
 }
-
-.col-4 li {
-    padding-bottom: 1.5rem;
-}
-
-li.price {
-    padding-bottom: 0.5rem;
-}
-
-ul.info_top li:last-child {
-    color: var(--db-grey-txt);
-}
-
-.card_plan span {
+.price span {
     display: block;
 }
 
-.card_plan a {
-    text-decoration: underline;
+.info .d-flex {
+    padding-bottom: 1rem;
+    align-items: baseline;
+}
+.card_footer {
+    flex-direction: column;
+}
+
+.card_footer .d-flex{
+    padding-bottom: 1rem;
+}
+
+.card_body i{
+    padding-right: 0.5rem;
 }
 
 .card_plan .button_blu {
     margin: 2rem 0;
-    width: 100%;
+    display: block;
 }
 
 .split {
     width: 20%;
     border-bottom: 1px solid gray;
     margin: 3rem 0;
+}
+
+.card_plan a {
+    text-decoration: underline;
 }
 
 .card_plan h4 {
@@ -413,6 +427,9 @@ ul.info_top li:last-child {
 .col-12 {
     margin: 2rem 0;
 }
+.col-12 .card_body{
+    flex-direction: row;
+}
 
 .text_left h3 {
     padding-bottom: 1.5rem;
@@ -420,6 +437,13 @@ ul.info_top li:last-child {
 
 .text_left h5 {
     padding-bottom: 2.5rem;
+}
+.text_right {
+    display: flex;
+    flex-direction: column;
+}
+.text_right .button_blu {
+    margin: 0;
 }
 
 #business_plans .col-4 {
