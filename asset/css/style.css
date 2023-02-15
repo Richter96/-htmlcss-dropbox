@@ -112,9 +112,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html
-{
-  scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -131,7 +131,7 @@ html
     --db-yellow: #ffd830;
     --db-lightblu: #b4d0e7;
     --db-greenborder: #d1e9cd;
-    --db-greyborder:#c5c5c5;
+    --db-greyborder: #c5c5c5;
 }
 
 body {
@@ -223,6 +223,7 @@ img {
 .button_white:active {
     background-color: rgba(113, 113, 113, 0.258);
 }
+
 .pb-1 {
     padding-bottom: 1rem;
 }
@@ -230,6 +231,7 @@ img {
 .pb-2 {
     padding-bottom: 2rem;
 }
+
 .pb-3 {
     padding-bottom: 3rem;
 }
@@ -258,6 +260,7 @@ h2 {
     top: 0;
     background-color: var(--db-white);
     box-shadow: 0 0 5px var(--db-grey-txt);
+    z-index: 10;
 }
 
 .m_right .button_blu {
@@ -336,6 +339,7 @@ nav li {
 .jambo .button_blu {
     margin: 2rem 0;
 }
+
 .jambo i {
     padding-bottom: ;
 }
@@ -344,7 +348,6 @@ nav li {
 .business_dropbox,
 .partner_Dropbox,
 #business_plans,
-
 .faq {
     margin-bottom: 2rem;
     padding-top: 80px;
@@ -390,6 +393,7 @@ nav li {
     padding-bottom: 4rem;
     line-height: 1.5;
 }
+
 .price span {
     display: block;
 }
@@ -398,15 +402,16 @@ nav li {
     padding-bottom: 1rem;
     align-items: baseline;
 }
+
 .card_footer {
     flex-direction: column;
 }
 
-.card_footer .d-flex{
+.card_footer .d-flex {
     padding-bottom: 1rem;
 }
 
-.card_body i{
+.card_body i {
     padding-right: 0.5rem;
 }
 
@@ -432,7 +437,8 @@ nav li {
 .col-12 {
     margin: 2rem 0;
 }
-.col-12 .card_body{
+
+.col-12 .card_body {
     flex-direction: row;
 }
 
@@ -443,10 +449,12 @@ nav li {
 .text_left h5 {
     padding-bottom: 2.5rem;
 }
+
 .text_right {
     display: flex;
     flex-direction: column;
 }
+
 .text_right .button_blu {
     margin: 0;
 }
@@ -565,14 +573,6 @@ nav li {
     align-items: baseline;
 }
 
-.asks {
-    display: flex;
-    flex-direction: column;
-}
-.box_faq {
-    border-top: 1px solid var(--db-grey-txt);
-    padding: 2rem 3rem 2rem 0;
-}
 .box_faq .row {
     justify-content: space-between;
 }
@@ -604,7 +604,8 @@ nav li {
     font-size: 0.8rem;
     color: var(--db-grey-txt);
 }
-.footer_top{
+
+.footer_top {
     margin-bottom: 2rem;
 }
 
@@ -612,11 +613,14 @@ nav li {
     width: 150px;
     margin: 4rem 0 2rem;
 }
+
 .footer_bottom {
     color: var(--db-white);
     padding-bottom: 1rem;
 }
-
+.faq {
+    padding-bottom: 5rem;
+}
 
 
 /* #endregion footer */
