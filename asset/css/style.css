@@ -585,6 +585,7 @@ nav li {
 
 
 /* #region footer */
+
 #app_footer {
     background-color: var(--db-balck);
 }
@@ -602,6 +603,18 @@ nav li {
 #app_footer a {
     font-size: 0.8rem;
     color: var(--db-grey-txt);
+}
+.footer_top, .footer_bottom{
+    margin-bottom: 2rem;
+}
+
+.slit {
+    width: 150px;
+    margin: 2rem 0;
+}
+.footer_bottom {
+    color: var(--db-white);
+    padding-bottom: 1rem;
 }
 
 
