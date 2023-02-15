@@ -604,13 +604,13 @@ nav li {
     font-size: 0.8rem;
     color: var(--db-grey-txt);
 }
-.footer_top, .footer_bottom{
+.footer_top{
     margin-bottom: 2rem;
 }
 
 .slit {
     width: 150px;
-    margin: 2rem 0;
+    margin: 4rem 0 2rem;
 }
 .footer_bottom {
     color: var(--db-white);
