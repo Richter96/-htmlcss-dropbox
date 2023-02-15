@@ -141,6 +141,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .d-flex {
     display: flex;
 }
@@ -148,6 +152,7 @@ a {
 .container {
     width: 60%;
     margin: auto;
+    max-width: 1152px;
 }
 
 .container_big {
@@ -199,10 +204,6 @@ a {
 
 .button_blu:active {
     background-color: rgba(120, 168, 246, 0.52);
-}
-
-img {
-    max-width: 100%;
 }
 
 .button_white {
@@ -302,12 +303,12 @@ nav li {
 
 .jambo img {
     max-width: 100%;
-    margin-bottom: -10%;
+    margin-bottom: -5rem;
 }
 
 .jambo p {
     line-height: 1.5;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 
 .jambo .button_blu {
@@ -483,7 +484,7 @@ ul.info_top li:last-child {
     background-color: var(--db-red-b);
 }
 
-.col-4 .designit {
+.designit {
     padding: 2rem;
 }
 
@@ -515,10 +516,24 @@ ul.info_top li:last-child {
 .free_trial .col-12 {
     justify-content: space-between;
 }
+
+.asks {
+    display: flex;
+    flex-direction: column;
+}
+.box_faq {
+    border-top: 1px solid var(--db-grey-txt);
+    padding: 2rem 3rem 2rem 0;
+}
+.box_faq .row {
+    justify-content: space-between;
+}
+
 /* end brand */
 
-
 /* #endregion main  */
+
+
 
 /* #region footer */
 #app_footer {
