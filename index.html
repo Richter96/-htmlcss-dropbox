@@ -71,15 +71,18 @@
         </div>
         <!-- endjambotron -->
 
-        <section class="business_plans">
+        <section id="business_plans">
             <div class="title_plan container">
                 <h2>Trova il piano business che fa per te</h2>
-                <form action="#" method="get">
-                    <input type="radio" id="month" name="plan">
-                    <label for="month">Fatturazione mensule</label>
-                    <input type="radio" id="year" name="plan">
-                    <label for="year">Fatturazione mensule</label>
-                </form>
+                <div class="payment_options">
+                    <form action="#" method="get">
+                        <input type="radio" id="month" name="plan">
+                        <label for="month" class="invoice_month">Fatturazione mensule</label>
+                        <input type="radio" id="year" name="plan">
+                        <label for="year">Fatturazione mensule</label>
+                    </form>
+                </div>
+
             </div>
 
             <div class="plans container">
@@ -402,7 +405,7 @@
                     <div class="box_faq">
                         <div class="row">
                             <span class="faq1">
-                                
+
                             </span>
                         </div>
                     </div>

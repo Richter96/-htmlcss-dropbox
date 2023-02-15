@@ -34,7 +34,7 @@
 
 }
 
-.debug .business_plans {
+.debug #business_plans {
     background-color: antiquewhite;
 }
 
@@ -43,7 +43,7 @@
     border: 1px solid black;
 }
 
-.debug .business_plans .container:last-child {
+.debug #business_plans .container:last-child {
     background-color: palegreen;
 }
 
@@ -52,7 +52,7 @@
     border: 1px solid black;
 }
 
-.debug .business_plans .col-4:first-child {
+.debug #business_plans .col-4:first-child {
     height: 600px;
 }
 
@@ -111,6 +111,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html
+{
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -236,6 +240,7 @@ h2 {
     left: 0;
     top: 0;
     background-color: var(--db-white);
+    box-shadow: 0 0 5px var(--db-grey-txt);
 }
 
 .m_right .button_blu {
@@ -319,23 +324,32 @@ nav li {
     margin-top: 3rem;
 }
 
+.jambo i:active {
+    transition: 3s;
+}
+
 .brend,
 .business_dropbox,
 .partner_Dropbox,
-.business_plans,
+#business_plans,
 .faq {
     margin-bottom: 2rem;
+    padding-top: 80px;
 }
+
 
 /* endjambotron */
 
-.business_plans .row {
+#business_plans .row {
     justify-content: space-between;
 }
 
 .title_plan {
     margin-bottom: 3rem;
+}
 
+.invoice_month {
+    margin-right: 2rem;
 }
 
 .title_plan h2 {
@@ -408,7 +422,7 @@ ul.info_top li:last-child {
     padding-bottom: 2.5rem;
 }
 
-.business_plans .col-4 {
+#business_plans .col-4 {
     padding: 1rem;
     margin: 0 -1rem;
 }
