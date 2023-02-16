@@ -265,6 +265,7 @@ h2 {
 
 .m_right .button_blu {
     padding: 0.3rem 1rem;
+    margin: 0 0.5rem;
 }
 
 .menu_nav {
@@ -277,6 +278,10 @@ nav li {
     display: inline-block;
     line-height: 50px;
     padding: 0 1px;
+}
+
+.m_left {
+    align-items: baseline;
 }
 
 /* .jambo_img {
