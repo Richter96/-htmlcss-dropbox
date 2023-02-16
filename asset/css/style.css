@@ -224,6 +224,15 @@ img {
     background-color: rgba(113, 113, 113, 0.258);
 }
 
+.brend,
+.business_dropbox,
+.partner_Dropbox,
+#business_plans,
+.faq {
+    margin-bottom: 2rem;
+    padding-top: 80px;
+}
+
 .pb-1 {
     padding-bottom: 1rem;
 }
@@ -262,33 +271,25 @@ h2 {
     box-shadow: 0 0 5px var(--db-grey-txt);
     z-index: 10;
 }
-
-.m_right .button_blu {
-    padding: 0.3rem 1rem;
-    margin: 0 0.5rem;
-}
-
 .menu_nav {
     justify-content: space-between;
     padding: 1rem 2rem;
     text-align: center;
 }
+.m_right .button_blu {
+    padding: 0.3rem 1rem;
+    margin: 0 0.5rem;
+}
+.m_left, .m_right {
+    align-items: baseline;
+}
+
 
 nav li {
     display: inline-block;
     line-height: 50px;
     padding: 0 1px;
 }
-
-.m_left {
-    align-items: baseline;
-}
-
-/* .jambo_img {
-    background-color: peru;
-    width: 100%;
-    height: 100%;
-} */
 
 .menu_nav a {
     color: black;
@@ -349,14 +350,6 @@ nav li {
     padding-bottom: ;
 }
 
-.brend,
-.business_dropbox,
-.partner_Dropbox,
-#business_plans,
-.faq {
-    margin-bottom: 2rem;
-    padding-top: 80px;
-}
 
 
 /* endjambotron */
@@ -365,17 +358,22 @@ nav li {
     justify-content: space-between;
 }
 
-.title_plan {
-    margin-bottom: 3rem;
+#business_plans .col-4 {
+    padding: 1rem;
+    margin: 0 -1rem;
 }
 
-.invoice_month {
-    margin-right: 2rem;
+.title_plan {
+    margin-bottom: 3rem;
 }
 
 .title_plan h2 {
     padding: 2rem 0;
 }
+.invoice_month {
+    margin-right: 2rem;
+}
+
 
 .card_header {
     text-align: center;
@@ -464,11 +462,6 @@ nav li {
     margin: 0;
 }
 
-#business_plans .col-4 {
-    padding: 1rem;
-    margin: 0 -1rem;
-}
-
 
 
 /* end business_plan */
@@ -479,6 +472,7 @@ nav li {
 }
 
 /* end partner_dropbox */
+
 .business_dropbox .col-4 {
     padding: 1rem;
 }
