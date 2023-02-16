@@ -57,7 +57,8 @@ p {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 16px;
-    right: 0;
+    right: 2rem;
+    top: 1.5rem;
 }
 
 .box_faq ul li i:before,
@@ -67,6 +68,9 @@ p {
     background-color: var(--db-greyborder);
     width: 3px;
     height: 9px;
+    right: 0;
+    top: 0;
+    
 }
 
 .box_faq ul li i:before {
@@ -84,6 +88,8 @@ p {
     height: 100%;
     z-index: 1;
     opacity: 0;
+    top: 0;
+    right: 0;
 }
 
 .box_faq ul li input[type=checkbox]:checked~p {
