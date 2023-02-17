@@ -405,10 +405,6 @@ nav li {
     align-items: baseline;
 }
 
-.card_footer {
-    flex-direction: column;
-}
-
 .card_footer .d-flex {
     padding-bottom: 1rem;
 }
@@ -461,11 +457,6 @@ nav li {
     margin: 0;
 }
 
-.btn {
-    display: flex;
-    flex-direction: column;
-}
-
 /* end business_plan */
 
 
@@ -491,7 +482,10 @@ nav li {
     text-decoration: underline;
     color: #0061ff;
 }
-
+a.button_blu {
+    text-decoration: none;
+    text-align: center;
+}
 /* end business_dropbox */
 
 .brend .col-4 {
