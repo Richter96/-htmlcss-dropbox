@@ -461,7 +461,10 @@ nav li {
     margin: 0;
 }
 
-
+.btn {
+    display: flex;
+    flex-direction: column;
+}
 
 /* end business_plan */
 
